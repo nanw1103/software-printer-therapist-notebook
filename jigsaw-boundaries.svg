@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" width="900" height="340">
+  <defs>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/>
+    </marker>
+    <marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2e8b4a"/>
+    </marker>
+  </defs>
+  <rect width="900" height="340" fill="#ffffff"/>
+
+  <!-- LEFT: tangled blob, huge context, wandering printer -->
+  <rect x="20" y="20" width="420" height="300" rx="12" fill="#fff5f5" stroke="#e0a0a0"/>
+  <rect x="40" y="40" width="380" height="260" rx="10" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="8 5"/>
+  <g stroke="#999" stroke-width="1.3" fill="none">
+    <path d="M90,90 L150,150"/><path d="M90,90 L70,170"/><path d="M160,70 L300,80"/><path d="M370,110 L310,160"/>
+    <path d="M70,170 L100,250"/><path d="M150,150 L180,235"/><path d="M310,160 L290,245"/><path d="M385,190 L360,265"/>
+    <path d="M300,80 L310,160"/><path d="M100,250 L290,245"/><path d="M160,70 L150,150"/><path d="M180,235 L360,265"/>
+    <path d="M90,90 L370,110"/><path d="M70,170 L385,190"/><path d="M160,70 L385,190"/><path d="M100,250 L370,110"/>
+    <path d="M230,170 L150,150"/><path d="M230,170 L310,160"/><path d="M230,170 L160,70"/><path d="M230,170 L300,80"/>
+    <path d="M230,170 L180,235"/><path d="M230,170 L290,245"/><path d="M230,170 L90,90"/><path d="M230,170 L360,265"/>
+  </g>
+  <g fill="#fff" stroke="#999" stroke-width="1.5">
+    <circle cx="90" cy="90" r="10"/><circle cx="160" cy="70" r="10"/><circle cx="300" cy="80" r="10"/><circle cx="370" cy="110" r="10"/>
+    <circle cx="70" cy="170" r="10"/><circle cx="150" cy="150" r="10"/><circle cx="310" cy="160" r="10"/><circle cx="385" cy="190" r="10"/>
+    <circle cx="100" cy="250" r="10"/><circle cx="180" cy="235" r="10"/><circle cx="290" cy="245" r="10"/><circle cx="360" cy="265" r="10"/>
+  </g>
+  <circle cx="230" cy="170" r="28" fill="#f8c9c9" stroke="#c0392b" stroke-width="2.5"/>
+  <path d="M78,62 C150,40 120,115 205,105 S270,50 255,135 S340,215 395,150" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#r)"/>
+  <rect x="52" y="52" width="26" height="20" rx="4" fill="#555"/>
+
+  <!-- RIGHT: jigsaw, small context, short printer path -->
+  <rect x="460" y="20" width="420" height="300" rx="12" fill="#f3faf4" stroke="#9cc9a3"/>
+  <g fill="#e2f3e6" stroke="#7fae89" stroke-width="1.5">
+    <rect x="495" y="50" width="110" height="80" rx="8"/><rect x="725" y="50" width="110" height="80" rx="8" transform="translate(10 0)"/>
+    <rect x="495" y="140" width="110" height="80" rx="8"/><rect x="615" y="140" width="110" height="80" rx="8"/><rect x="735" y="140" width="110" height="80" rx="8"/>
+  </g>
+  <rect x="615" y="50" width="110" height="80" rx="8" fill="#c9ead0" stroke="#2e8b4a" stroke-width="2"/>
+  <g fill="#c9ead0" stroke="#2e8b4a" stroke-width="1.5">
+    <circle cx="610" cy="90" r="9"/><circle cx="730" cy="90" r="9"/>
+    <circle cx="610" cy="180" r="9"/><circle cx="730" cy="180" r="9"/>
+    <circle cx="550" cy="135" r="9"/><circle cx="670" cy="135" r="9"/><circle cx="790" cy="135" r="9"/>
+  </g>
+  <rect x="609" y="44" width="122" height="92" rx="10" fill="none" stroke="#2e8b4a" stroke-width="2.5" stroke-dasharray="8 5"/>
+  <rect x="630" y="78" width="26" height="20" rx="4" fill="#555"/>
+  <path d="M660,88 L698,88" stroke="#2e8b4a" stroke-width="2" fill="none" marker-end="url(#g)"/>
+  <g stroke="#2e8b4a" stroke-width="1.5" stroke-dasharray="2 4" fill="none">
+    <path d="M550,220 L550,252"/><path d="M670,220 L670,252"/><path d="M790,220 L790,252"/>
+  </g>
+  <rect x="495" y="252" width="350" height="40" rx="8" fill="#e2f3e6" stroke="#2e8b4a" stroke-width="1.5"/>
+</svg>

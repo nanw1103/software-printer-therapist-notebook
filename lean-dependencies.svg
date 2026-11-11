@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" width="900" height="340">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#555"/>
+    </marker>
+  </defs>
+  <rect width="900" height="340" fill="#ffffff"/>
+
+  <!-- LEFT: one fat node, everything depends on it -->
+  <rect x="20" y="20" width="420" height="300" rx="12" fill="#fff5f5" stroke="#e0a0a0"/>
+  <g fill="#fff" stroke="#999" stroke-width="1.5">
+    <rect x="55" y="45" width="80" height="34" rx="6"/><rect x="145" y="45" width="80" height="34" rx="6"/>
+    <rect x="235" y="45" width="80" height="34" rx="6"/><rect x="325" y="45" width="80" height="34" rx="6"/>
+    <rect x="55" y="261" width="80" height="34" rx="6"/><rect x="145" y="261" width="80" height="34" rx="6"/>
+    <rect x="235" y="261" width="80" height="34" rx="6"/><rect x="325" y="261" width="80" height="34" rx="6"/>
+  </g>
+  <g stroke="#555" stroke-width="1.5" fill="none" marker-end="url(#a)">
+    <path d="M95,79 L165,113"/><path d="M185,79 L205,113"/><path d="M275,79 L255,113"/><path d="M365,79 L295,113"/>
+    <path d="M165,227 L95,261"/><path d="M205,227 L185,261"/><path d="M255,227 L275,261"/><path d="M295,227 L365,261"/>
+  </g>
+  <rect x="130" y="115" width="200" height="110" rx="16" fill="#f8c9c9" stroke="#c0392b" stroke-width="2.5"/>
+  <text x="230" y="182" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#7a1f17" text-anchor="middle">A</text>
+
+  <!-- RIGHT: lean components, duplicated per domain, same contract -->
+  <rect x="460" y="20" width="420" height="300" rx="12" fill="#f3faf4" stroke="#9cc9a3"/>
+  <g fill="none" stroke="#7fae89" stroke-width="1.5" stroke-dasharray="6 4">
+    <rect x="476" y="40" width="122" height="175" rx="10"/>
+    <rect x="612" y="40" width="122" height="175" rx="10"/>
+    <rect x="748" y="40" width="122" height="175" rx="10"/>
+  </g>
+  <g fill="#fff" stroke="#999" stroke-width="1.5">
+    <rect x="487" y="55" width="100" height="34" rx="6"/><rect x="623" y="55" width="100" height="34" rx="6"/><rect x="759" y="55" width="100" height="34" rx="6"/>
+  </g>
+  <g stroke="#555" stroke-width="1.5" marker-end="url(#a)">
+    <path d="M537,89 L537,128"/><path d="M673,89 L673,128"/><path d="M809,89 L809,128"/>
+  </g>
+  <g fill="#c9ead0" stroke="#2e8b4a" stroke-width="2">
+    <rect x="497" y="130" width="80" height="50" rx="10"/><rect x="633" y="130" width="80" height="50" rx="10"/><rect x="769" y="130" width="80" height="50" rx="10"/>
+  </g>
+  <g font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#14532d" text-anchor="middle">
+    <text x="537" y="161">A</text><text x="673" y="161">A′</text><text x="809" y="161">A″</text>
+  </g>
+  <g stroke="#2e8b4a" stroke-width="1.5" stroke-dasharray="2 4" fill="none">
+    <path d="M537,180 L537,240"/><path d="M673,180 L673,240"/><path d="M809,180 L809,240"/>
+  </g>
+  <rect x="476" y="240" width="394" height="40" rx="8" fill="#e2f3e6" stroke="#2e8b4a" stroke-width="1.5"/>
+</svg>
