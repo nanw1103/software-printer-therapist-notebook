@@ -37,7 +37,7 @@ When code becomes cheap to print, engineering value shifts from typing the code 
 
 8. **The Software Printer Therapist's Struggle: AI Is Too Polite to Question the Foundation.** Trained on mountains of ordinary code and tuned to be agreeable, AI often treats the existing mess as a style guide. It keeps “fitting in” with shaky abstractions and temporary hacks, stacking new floors on a crooked foundation. Without firm architectural principles and explicit boundaries, the printer doesn't fix the building—it helps it lean faster.
 
-9. **Don't Let the Printer Do Your Thinking.** The trap is asking AI to replace understanding rather than automate work you already understand. Learn to recognize success and failure first; then automate the tedious parts of engineering you love.
+9. **Don't Let the Printer Do Your Thinking.** Most people use AI to skip understanding, not to automate work they already understand. Learn what success and failure look like first; then automate the tedious parts of work you love.
 
 ![Crooked foundation vs. verified foundation](solid-foundation.svg)
 
