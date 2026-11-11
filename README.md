@@ -9,8 +9,6 @@ When code becomes cheap to print, engineering value shifts from typing the code 
 
 *When code becomes cheap, what becomes expensive?*
 
-> Duplicate implementations when it buys independence. Centralize invariants when consistency matters.
-
 1. **Print the Code. Architect the Machine.** Code generation is becoming a commodity. The hard part is deciding what to build, how to organize it, and how the pieces fit together—not admiring the freshly printed lines.
 
 2. **DRY, but Not at Any Cost.** Traditional deduplication saves manual coding effort. In the AI era, a little repeated code may be cheaper than a shared abstraction with a dozen flags, hidden dependencies, and a user manual.
@@ -19,11 +17,11 @@ When code becomes cheap to print, engineering value shifts from typing the code 
 
 ![Fat component vs. lean components with controlled duplication](lean-dependencies.svg)
 
+> **Duplicate implementations when it buys independence. Centralize invariants when consistency matters.**
+
 ## Part II — Architecture That Keeps the Printer Sane
 
 *How to design software that AI can build without making a mess.*
-
-> A component should be small enough to regenerate, clear enough to review, and independent enough to replace.
 
 1. **Architecture Is a Jigsaw Puzzle, Not a Blob.** Clear interfaces and independent components let humans and AI work on one piece at a time without loading the entire system into their heads—or context windows.
 
@@ -34,6 +32,8 @@ When code becomes cheap to print, engineering value shifts from typing the code 
 4. **AI Prints Complexity at Industrial Speed, Too.** Vague responsibilities and branching logic give AI more room to wander off-spec. Explicit boundaries shrink the reasoning surface and help keep the printer on the rails.
 
 ![Tangled blob vs. jigsaw with clear boundaries](jigsaw-boundaries.svg)
+
+> **A component should be small enough to regenerate, clear enough to review, and independent enough to replace.**
 
 ## Part III — Confessions of a Software Printer Therapist
 
