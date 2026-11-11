@@ -19,6 +19,7 @@ When code becomes cheap to print, engineering value shifts from typing the code 
 
 > **Duplicate implementations when it buys independence. Centralize invariants when consistency matters.**
 
+
 ## Part II — Architecture That Keeps the Printer Sane
 
 *How to design software that AI can build without making a mess.*
@@ -34,6 +35,7 @@ When code becomes cheap to print, engineering value shifts from typing the code 
 ![Tangled blob vs. jigsaw with clear boundaries](jigsaw-boundaries.svg)
 
 > **A component should be small enough to regenerate, clear enough to review, and independent enough to replace.**
+
 
 ## Part III — Confessions of a Software Printer Therapist
 
